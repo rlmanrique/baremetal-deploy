@@ -16,9 +16,9 @@
   tags: subscription
 - include_tasks: 30_req_packages.yml
   tags: packages
-- include_tasks: 40_bridge.yml
-  tags:
-  - network
+#- include_tasks: 40_bridge.yml
+#  tags:
+#  - network
 - include_tasks: 45_networking_facts.yml
   tags:
   - network_facts
